@@ -38,32 +38,18 @@ h1 {
   font-size: 2rem;
 }
 
-.home {
+.nav ul li {
   display: inline-block;
   color: #fff;
   list-style-type: none;
+  text-decoration: none;
 }
 
-.home:hover {
+.nav:hover {
   background-color: #a63f38;
 }
 
-.cereals {
-  display: inline-block;
-  color: #fff;
-  list-style-type: none;
-}
-
-.cereals:hover {
-  background-color: #a63f38;
-}
-
-.legumes {
-  display: inline-block;
-  color: #fff;
-  list-style-type: none;
-}
-
-.legumes:hover {
-  background-color: #a63f38;
+.nav li {
+  float: inherit;
+  width: 50%;
 }
