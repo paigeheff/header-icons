@@ -38,9 +38,13 @@ h1 {
   font-size: 2rem;
 }
 
-.nav li {
-  float: inherit;
+.nav {
+  float: none;
   width: 50%;
+  color: #fff;
+  list-style-type: none;
+  display: flex;
+
 }
 
 .nav ul li {
@@ -50,6 +54,6 @@ h1 {
   text-decoration: none;
 }
 
-.nav:hover {
+.nav a:hover {
   background-color: #a63f38;
 }
