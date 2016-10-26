@@ -26,10 +26,32 @@ html {
 h1 {
   text-align: center;
   color: #fff;
-  text-size: 2rem;
+  font-size: 2rem;
 }
 
-.cards ul li {
+.home {
   display: inline-block;
   color: #fff;
+}
+
+.home:hover {
+  background-color: #a63f38;
+}
+
+.cereals {
+  display: inline-block;
+  color: #fff;
+}
+
+.cereals:hover {
+  background-color: #a63f38;
+}
+
+.legumes {
+  display: inline-block;
+  color: #fff;
+}
+
+.legumes:hover {
+  background-color: #a63f38;
 }
