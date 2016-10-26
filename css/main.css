@@ -1,0 +1,9 @@
+html {
+  font-family: 'Merriweather', serif;
+  box-sizing: border-box;
+}
+
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
