@@ -38,6 +38,11 @@ h1 {
   font-size: 2rem;
 }
 
+.nav li {
+  float: inherit;
+  width: 50%;
+}
+
 .nav ul li {
   display: inline-block;
   color: #fff;
@@ -47,9 +52,4 @@ h1 {
 
 .nav:hover {
   background-color: #a63f38;
-}
-
-.nav li {
-  float: inherit;
-  width: 50%;
 }
