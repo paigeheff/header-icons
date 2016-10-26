@@ -10,6 +10,12 @@ html {
   box-sizing: inherit;
 }
 
+body header{
+  background-color: #d05c2e;
+  padding: .4rem 0;
+  margin: 0 0 .7rem;
+}
+
 .left {
   float: left;
   width: 40px;
@@ -32,6 +38,7 @@ h1 {
 .home {
   display: inline-block;
   color: #fff;
+  list-style-type: none;
 }
 
 .home:hover {
@@ -41,6 +48,7 @@ h1 {
 .cereals {
   display: inline-block;
   color: #fff;
+  list-style-type: none;
 }
 
 .cereals:hover {
@@ -50,6 +58,7 @@ h1 {
 .legumes {
   display: inline-block;
   color: #fff;
+  list-style-type: none;
 }
 
 .legumes:hover {
