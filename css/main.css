@@ -1,9 +1,35 @@
 html {
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
   box-sizing: border-box;
+  line-height: 1.5;
+
 }
 
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.left {
+  float: left;
+  width: 40px;
+  height: auto;
+}
+
+.right {
+  float: right;
+  width: 40px;
+  height: auto;
+
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  text-size: 2rem;
+}
+
+.cards ul li {
+  display: inline-block;
+  color: #fff;
 }
